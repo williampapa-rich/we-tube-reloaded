@@ -8,7 +8,7 @@
     "url": "git+https://github.com/williampapa-rich/wetube-reloaded.git"
   },
   "scripts": {
-    "win": "node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "author": "Dennis",
   "license": "MIT",
@@ -21,6 +21,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.23.3",
-    "@babel/preset-env": "^7.23.3"
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.3",
+    "nodemon": "^3.0.1"
   }
 }
